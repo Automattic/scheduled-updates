@@ -11,3 +11,4 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Generate initial package for Scheduled Updates
+- Show schedule information for scheduled plugin updates in wp-admin
