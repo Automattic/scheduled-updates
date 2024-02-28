@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
+
 ## [0.2.0] - 2024-02-26
 ### Added
 - Show schedule information for scheduled plugin updates in wp-admin [#35917]
