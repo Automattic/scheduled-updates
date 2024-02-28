@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Aligned handling of schedules that can't be found to return the same error messages.
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
 
 ## [0.2.0] - 2024-02-26
