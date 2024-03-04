@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
   
   Change the `allowlist_scheduled_plugins` function to include a check for the `SCHEDULED_AUTOUPDATE` constant. This allows us to identify requests coming from scheduled updates and include the relevant plugins when the `auto_update_plugin` hook is triggered.
 
+### Fixed
+- Moved schedule validation into its own callbacks so permission callbacks just check permissions.
+
 ## [0.2.1] - 2024-02-27
 ### Changed
 - Internal updates.
