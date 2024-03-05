@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Adds plugins to and removes them from aut-updates when creating and deleting update schedules.
+
 ### Fixed
 - Fixed scheduled updates returning is_managed = true for non-root symlinks to /wordpress directory.
 
