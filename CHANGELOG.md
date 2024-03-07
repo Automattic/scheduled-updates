@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added a new endpoint /plugins/capabilities that returns whether we can update plugins.
 
+### Changed
+- Sends update requests even if there are no plugins to be updated, so WP.com can keep track of that outcome of a schedule execution.
+
 ### Fixed
 - Fix: add check for wp_unschedule_event return value
 - Fixed a bug where individual plugin slugs were not actually validated and sanitized.
