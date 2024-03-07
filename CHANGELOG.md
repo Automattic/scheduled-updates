@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added a new endpoint /plugins/capabilities that returns whether we can update plugins.
 
+### Fixed
+- Fix: add check for wp_unschedule_event return value
+
 ## [0.3.1] - 2024-03-05
 ### Added
 - Adds plugins to and removes them from aut-updates when creating and deleting update schedules. [#36125]
