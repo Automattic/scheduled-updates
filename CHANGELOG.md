@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix: add check for wp_unschedule_event return value
+- Fixed a bug where individual plugin slugs were not actually validated and sanitized.
 
 ## [0.3.1] - 2024-03-05
 ### Added
