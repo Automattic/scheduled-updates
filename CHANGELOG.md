@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Fix: add check for wp_unschedule_event return value
 - Fixed a bug where individual plugin slugs were not actually validated and sanitized.
+- Fixed a bug where plugin autoupdates were no longer allowlisted after switching away from the jetpack_update_schedules option.
 
 ## [0.3.1] - 2024-03-05
 ### Added
