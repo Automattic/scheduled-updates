@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added a new endpoint /plugins/capabilities that returns whether we can update plugins.
+- The plugin list now accounts for all schedules a plugin might be a part of.
 
 ### Changed
 - Sends update requests even if there are no plugins to be updated, so WP.com can keep track of that outcome of a schedule execution.
