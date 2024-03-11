@@ -5,21 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.3.2] - 2024-03-11
 ### Added
-- Added a new endpoint /plugins/capabilities that returns whether we can update plugins.
-- The plugin list now accounts for all schedules a plugin might be a part of.
+- Added a new endpoint /plugins/capabilities that returns whether we can update plugins. [#36238]
+- The plugin list now accounts for all schedules a plugin might be a part of. [#36259]
 
 ### Changed
-- Sends update requests even if there are no plugins to be updated, so WP.com can keep track of that outcome of a schedule execution.
+- Sends update requests even if there are no plugins to be updated, so WP.com can keep track of that outcome of a schedule execution. [#36162]
 
 ### Fixed
-- Fix: add check for wp_unschedule_event return value
-- Fixed a bug where individual plugin slugs were not actually validated and sanitized.
-- Fixed a bug where plugin autoupdates were no longer allowlisted after switching away from the jetpack_update_schedules option.
+- Fix: add check for wp_unschedule_event return value [#36248]
+- Fixed a bug where individual plugin slugs were not actually validated and sanitized. [#36231]
+- Fixed a bug where plugin autoupdates were no longer allowlisted after switching away from the jetpack_update_schedules option. [#36292]
 
 ## [0.3.1] - 2024-03-05
 ### Added
@@ -57,7 +54,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Generate initial package for Scheduled Updates [#35796]
 
-[0.3.2-alpha]: https://github.com/Automattic/scheduled-updates/compare/v0.3.1...v0.3.2-alpha
+[0.3.2]: https://github.com/Automattic/scheduled-updates/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/Automattic/scheduled-updates/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/Automattic/scheduled-updates/compare/v0.2.1...v0.3.0
 [0.2.1]: https://github.com/Automattic/scheduled-updates/compare/v0.2.0...v0.2.1
