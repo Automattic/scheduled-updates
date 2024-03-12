@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Fixed a bug where timezone difference where not taken into account when displaying schedule run times in wp-admin.
+
 ## [0.3.2] - 2024-03-11
 ### Added
 - Added a new endpoint /plugins/capabilities that returns whether we can update plugins. [#36238]
