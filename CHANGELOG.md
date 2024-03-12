@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed a bug where only plugin slugs were send to the update handler instead of full update objects.
+- Fixed a bug where the cron callback did not accept more than one plugin to update.
 
 ## [0.3.3] - 2024-03-12
 ### Fixed
