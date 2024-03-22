@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Fixed a bug where the weekday index was not properly accounted for in list of weekdays.
 - Transfer status when editing a schedule.
 
 ## [0.5.0] - 2024-03-20
