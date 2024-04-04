@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add backend infrastructure to log scheduled update events
 
+### Fixed
+- Force cache cleaning before scheduling a new job.
+
 ## [0.5.3] - 2024-04-01
 ### Changed
 - General: update Phan configuration. [#36528]
