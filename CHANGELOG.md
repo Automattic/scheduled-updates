@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add backend infrastructure to log scheduled update events
+- Add scheduled updates logging endpoints
 
 ### Fixed
 - Force cache cleaning before scheduling a new job.
