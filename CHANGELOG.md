@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Force cache cleaning before scheduling a new job.
+- Store log timestamp as int
 
 ## [0.5.3] - 2024-04-01
 ### Changed
