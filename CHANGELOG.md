@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Delete logs after scheduled update deletion.
+
 ## [0.7.0] - 2024-04-05
 ### Changed
 - Infer scheduled update status from logs [#36752]
@@ -107,6 +114,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Generate initial package for Scheduled Updates [#35796]
 
+[0.7.1-alpha]: https://github.com/Automattic/scheduled-updates/compare/v0.7.0...v0.7.1-alpha
 [0.7.0]: https://github.com/Automattic/scheduled-updates/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/Automattic/scheduled-updates/compare/v0.5.3...v0.6.0
 [0.5.3]: https://github.com/Automattic/scheduled-updates/compare/v0.5.2...v0.5.3
