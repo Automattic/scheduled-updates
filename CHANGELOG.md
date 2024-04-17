@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a sync option where for scheduled updated.
+- Populated sync option with results from endpoint.
 - Scheduled Updates: Added a views link to filter plugins that are part of a scheduled update.
 
 ## [0.7.2] - 2024-04-15
