@@ -8,9 +8,9 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.2-alpha",
+		"automattic/jetpack-changelogger": "^4.2.2",
 		"automattic/wordbless": "@dev",
-		"automattic/jetpack-plans": "^0.4.5-alpha",
+		"automattic/jetpack-plans": "^0.4.5",
 		"php-mock/php-mock-phpunit": "^2.10"
 	},
 	"suggest": {
