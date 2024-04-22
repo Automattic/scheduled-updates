@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Scheduled Updates: Change how we read status and get it from logs directly
 
+### Removed
+- Scheduled Updates: Removed checks for valid schedules when retreiving and clearing logs
+
 ## [0.7.2] - 2024-04-15
 ### Changed
 - Internal updates.
