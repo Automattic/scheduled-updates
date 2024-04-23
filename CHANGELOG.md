@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Scheduled Updates: Change how we read status and get it from logs directly
+- Scheduled Updates: Move arbitrary actions to callbacks
 
 ### Removed
 - Scheduled Updates: Removed checks for valid schedules when retreiving and clearing logs
