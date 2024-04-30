@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add scheduled updates active flag
 
+### Changed
+- Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
+
 ## [0.10.0] - 2024-04-29
 ### Changed
 - Scheduled Updates: move health check functions into hooks [#37067]

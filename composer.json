@@ -4,13 +4,17 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"automattic/jetpack-status": "^3.0.1-alpha",
+		"automattic/jetpack-sync": "^2.15.0-alpha",
+		"automattic/jetpack-plans": "^0.4.6",
+		"automattic/jetpack-constants": "^2.0.2-alpha",
+		"automattic/jetpack-connection": "^2.7.5-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
 		"automattic/jetpack-changelogger": "^4.2.2",
 		"automattic/wordbless": "@dev",
-		"automattic/jetpack-plans": "^0.4.6",
 		"php-mock/php-mock-phpunit": "^2.10"
 	},
 	"suggest": {
