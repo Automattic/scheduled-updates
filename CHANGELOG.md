@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Add scheduled updates active flag
 
 ### Changed
+- Raised limit of schedules to 24.
 - Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
 
 ## [0.10.0] - 2024-04-29
