@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Add scheduled updates active flag
 
 ### Changed
+- Moved last_run_status and last_run_timestamp data to using rest fields
 - Raised limit of schedules to 24.
 - Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
 - Switched endpoint args to be built from a schema and switched active field to use register_rest_field as an example for future changes.
