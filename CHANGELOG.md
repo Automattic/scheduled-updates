@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Moved last_run_status and last_run_timestamp data to using rest fields
 - Raised limit of schedules to 24.
+- Scheduled Update: Moved health_check_paths to using rest field and as a result changed where in the API response the field gets returned
 - Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
 - Switched endpoint args to be built from a schema and switched active field to use register_rest_field as an example for future changes.
 
