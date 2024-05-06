@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Raised limit of schedules to 24.
 - Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
+- Switched endpoint args to be built from a schema and switched active field to use register_rest_field as an example for future changes.
 
 ## [0.10.0] - 2024-04-29
 ### Changed
