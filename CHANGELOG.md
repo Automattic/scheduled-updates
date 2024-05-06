@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 - Scheduled Updates: Broke out endpoint paths into separate files and formalized package dependencies
 - Switched endpoint args to be built from a schema and switched active field to use register_rest_field as an example for future changes.
 
+### Fixed
+- Fixed a bug where rest_fileds were not registered when composing the sync option.
+
 ## [0.10.0] - 2024-04-29
 ### Changed
 - Scheduled Updates: move health check functions into hooks [#37067]
