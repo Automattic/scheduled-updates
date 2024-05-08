@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Scheduled Updates: Verify plugins when creating a schedule
 
 ### Fixed
+- Add updated_at field to ensure the option is always on sync.
 - Fixed a bug where rest_fileds were not registered when composing the sync option.
 - Fix multiple sync issue
 
