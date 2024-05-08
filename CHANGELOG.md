@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed a bug where rest_fileds were not registered when composing the sync option.
+- Fix multiple sync issue
 
 ## [0.11.0] - 2024-05-06
 ### Added
