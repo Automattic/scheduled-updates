@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove sync option backward-compatibility temporary solution
+- Scheduled Updates: Remove unused status api
 
 ### Fixed
 - Add updated_at field to ensure the option is always on sync.
