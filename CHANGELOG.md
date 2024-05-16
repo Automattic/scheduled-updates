@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Moves install/managed check for plugins into API endpoint validation callback
 
+### Fixed
+- Remove plugins check on WPCOM environment
+
 ## [0.12.0] - 2024-05-09
 ### Changed
 - Scheduled Updates: Verify plugins when creating a schedule [#37235]
