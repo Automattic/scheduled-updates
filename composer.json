@@ -6,10 +6,10 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-status": "^5.0.1",
-		"automattic/jetpack-sync": "^4.1.1-alpha",
+		"automattic/jetpack-sync": "^4.1.1",
 		"automattic/jetpack-plans": "^0.5.1",
 		"automattic/jetpack-constants": "^3.0.1",
-		"automattic/jetpack-connection": "^6.2.1-alpha"
+		"automattic/jetpack-connection": "^6.2.1"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
