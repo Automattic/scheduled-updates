@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Code: Fix @covers annotations.
+- Tests: Rework logic to increase stability in edge cases.
 
 ## [0.14.0] - 2024-12-04
 ### Changed
